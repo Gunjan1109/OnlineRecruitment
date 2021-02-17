@@ -1,0 +1,57 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>CandiadateRegisterServelet</servlet-name>
+  	<display-name>CandiadateRegisterServelet</display-name>
+  	<description></description>
+  	<servlet-class>CandiadateRegisterServelet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CandidateregisterSevelet</servlet-name>
+  	<display-name>CandidateregisterSevelet</display-name>
+  	<description></description>
+  	<servlet-class>Candidate.CandidateregisterSevelet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Candidate</servlet-name>
+  	<display-name>Candidate</display-name>
+  	<description></description>
+  	<servlet-class>Candidate</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Applicant</servlet-name>
+  	<display-name>Applicant</display-name>
+  	<description></description>
+  	<servlet-class>Applicant</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Company</servlet-name>
+  	<display-name>Company</display-name>
+  	<description></description>
+  	<servlet-class>Company</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>CandiadateRegisterServelet</servlet-name>
+  	<url-pattern>/CandiadateRegisterServelet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CandidateregisterSevelet</servlet-name>
+  	<url-pattern>/CandidateregisterSevelet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Candidate</servlet-name>
+  	<url-pattern>/Candidate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Applicant</servlet-name>
+  	<url-pattern>/Applicant</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Company</servlet-name>
+  	<url-pattern>/Company</url-pattern>
+  </servlet-mapping>
+</web-app>
